@@ -127,7 +127,7 @@ end
   
   if won?
     puts "congratulate"
-  elsif darw?
+  elsif draw?
    puts "good luck on next"
  end
  
