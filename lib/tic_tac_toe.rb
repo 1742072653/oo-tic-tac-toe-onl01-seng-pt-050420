@@ -121,7 +121,14 @@ end
   end
   
   def play 
-    until 
+   until over?
+    turn
+  end
+  
+  if won?
+    puts "congratulate"
+  elsif 
+  
     
     
 end
