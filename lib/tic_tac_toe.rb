@@ -102,7 +102,8 @@ end
   def over?
     if(won? || full?)
       return true
-    else return false
+    else
+      return false
     end
     
   end
