@@ -100,7 +100,7 @@ end
   end
   
   def over?
-    if(won? != false || full? == true)
+    if(won? || full?)
       return true
     else return false
     end
