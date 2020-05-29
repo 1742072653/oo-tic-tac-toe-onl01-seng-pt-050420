@@ -94,7 +94,7 @@ end
 
   
   def winner 
-    if(won? != false)
+    if(won?)
       return @board[won?[0]]
     end
   end
